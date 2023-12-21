@@ -1,0 +1,134 @@
+.footer-section{
+    margin-top: 20px;
+}
+.logo-footer{
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    text-align: left;
+    margin-left: 60px;
+}
+.img-logo{
+    opacity: 1;
+    height: 90px;
+    width: 200px;
+    margin-left: 0;
+    /* margin: 10px; */
+}
+.responsive{
+    margin-left: 4rem;
+}
+
+.logo-footer > p{
+    margin: 10px;
+    line-height: 35px;
+    color: rgb(6, 73, 131);
+    font-family:  var(--custom-font-family);
+    margin-top: 27px;
+    margin-left: 10px;
+    font-size: 17px;
+}
+.footer-head{
+    font-weight: 900;
+    color: rgb(6, 54, 95);
+    font-family:  var(--custom-font-family);
+    
+}
+hr{
+    margin: 0 !important;
+}
+.copyright{
+    padding-left: 5.2rem !important;
+    justify-content: start;
+    align-items: center;
+}
+.call-icon{
+    color: white;
+    padding: 10px;
+    background-color: var(--custom-color);
+    border-radius: 20px;
+    margin-right: 5px;
+}
+.p-number{
+    color: var(--custom-color);
+    font-size: 1.2rem;
+    align-items: center;
+}
+@media screen and (max-width: 948px){
+    .links>span{   
+        margin-left: 0 !important;
+    }
+    .copyright{
+        /* display: flex;*/
+        justify-content: center !important; 
+    padding-left: 0rem !important;
+    padding: 0px !important;
+
+
+    }
+    .icon-title {
+        margin: 5px !important;
+    }
+    .logo-footer{
+    margin-left: 0px;
+    }
+.footer-head{
+    text-align: left;
+}
+.responsive{
+    margin-left: 0px;
+}
+.logo-footer > p{
+    font-size: 15px;
+}
+
+}
+@media screen and (min-device-width: 768px) 
+    and (max-device-width: 1024px) {
+    .links>span {
+        margin-left: 7rem !important;
+    }
+    /* .links-1>span {
+        /* margin-left: 1rem;
+    } */
+    .about-link {
+        padding-left: 0px !important;
+        margin-right: 0px !important;
+    }
+}
+@media screen and (min-device-width: 1025px) 
+    and (max-device-width: 1200px) {
+        .links>span {
+            margin-left: 7rem !important;
+        }
+        /* .links-1>span {
+            /* margin-left: 1rem;
+        } */
+        .about-link {
+            padding-left: 0px !important; 
+        margin-right: 0px !important;
+
+        }  
+    }
+.links>span{   
+    margin-left: 5rem; 
+    line-height: 3rem;
+    text-decoration: none;
+    color: black;
+}
+.links-1>span{   
+    /* margin-left: 1rem;  */
+    line-height: 3rem;
+    text-decoration: none;
+    color: black;
+}
+.about-link{
+    padding-left: 20px;
+    margin-right: 20px;
+    /* text-decoration: underline !important; */
+}
+.icon-title{
+    margin: 10px;
+    font-size: 14px;
+}

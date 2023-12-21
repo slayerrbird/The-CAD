@@ -1,0 +1,27 @@
+.navbar{
+    /* background-color: white; */
+}
+.menu, .contact{
+    color: rgb(0, 0,6 0);
+}
+
+.contact-head>h1{
+    margin: 20px;
+    font-size: 6rem;
+    color: rgb(6, 51, 90);
+  font-family: "Hedvig Letters Serif", serif;
+}
+.map{
+    width: 100%;
+    height: 90vh;
+    padding: 20px;
+}
+.upper-map{ margin: 40px;}
+@media screen and (max-width: 948px) {
+    .map{
+        height: 50vh;
+    }
+    .contact-head>h1{
+        font-size: 3rem;
+    }
+}

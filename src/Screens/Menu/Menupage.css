@@ -1,0 +1,95 @@
+.container1 {
+  overflow: hidden;
+  transition: all 3s ease-in-out;
+}
+
+.jewel {
+  height: 100%;
+/* position: sticky; */
+  object-fit: cover;
+  width: 100%;
+}
+
+
+.cancel-icon {
+  width: 40px;
+  font-size: 32px;
+  margin: 32px;
+  padding: 10px;
+  /* border: 2px solid black; */
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px 2px rgb(131, 126, 126);
+  color: black;
+  cursor: pointer;
+}
+.cancel {
+}
+
+.head {
+  font-size: 30px;
+  font-weight: 900;
+  color: rgb(21, 68, 109);
+  line-height: 30px;
+  font-family: var(--custom-font-family);
+}
+.menu-link{
+    margin-top: 5rem !important;
+    padding-left: 7rem !important;
+    align-items: start !important;
+    font-size: 36px;
+    line-height: 5.5rem;
+    font-family:  var(--custom-font-family);
+}
+.color{
+    /* padding-bottom: 4rem !important; */
+    color: rgb(21, 68, 109) !important;
+    text-decoration: underline;
+    text-decoration-color:rgb(21, 68, 109) !important;
+}
+.social{
+    margin-top: 50px !important;
+    /* margin-left: 4rem */
+}
+.icon{
+    color: rgb(21, 68, 109);
+    margin: 5px;
+    border: 2px solid #15446d;
+    border-radius: 5px;
+    width: 4rem;
+    height: 4rem;
+    padding: 5px;
+}
+@media screen and (max-width: 948px) {
+.head{
+    font-size: 15px;
+}
+.cancel-icon{
+    font-size: 16px;
+}
+.menu-link{
+    padding-left: 2rem !important;
+    font-size: 12px;
+    line-height: 1.9rem;
+}
+.jewel {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .social{
+    margin-top: 0px;
+    margin-left: 0rem
+}
+.icon{
+    margin: 5px;
+    width: 1rem;
+    height: 1rem;
+    padding: 5px;
+}
+}
+@media screen and (max-width: 1200px) {
+    /* .menu-link{
+        padding-left: 4rem !important;
+    } */
+  
+}

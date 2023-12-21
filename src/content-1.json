@@ -1,0 +1,52 @@
+{
+    "content" : [
+        {
+            "para":"Culpa do culpa ex ea. Elit anim eu est veniam laboris reprehenderit sit esse laboris excepteur sint. Laboris anim laboris deserunt adipisicing laborum dolore consectetur ex culpa occaecat non dolor. Esse deserunt qui quis laboris quis non excepteur culpa sit enim officia do laborum. Officia tempor officia duis deserunt anim tempor duis laboris deserunt dolore amet non.Laborum eu voluptate deserunt nisi non do ea do non esse ullamco sunt. Laborum ad et ea exercitation consectetur ut. Incididunt magna qui nisi voluptate elit tempor id anim consectetur culpa reprehenderit ullamco qui. Fugiat aute eu cillum sunt dolore dolor cupidatat cupidatat veniam. Dolor labore aliqua anim in fugiat sunt pariatur laborum proident mollit. Labore non nisi adipisicing dolor tempor."
+        },
+        {
+            "para":"Esse commodo cupidatat veniam tempor laborum excepteur pariatur aliqua aliquip mollit nostrud nulla quis mollit. Qui dolore enim ex magna. Mollit cupidatat sit non minim ipsum consequat esse. Laborum fugiat ex eu magna sit tempor ullamco ipsum quis enim id magna in. Nostrud cupidatat cillum exercitation culpa dolore ad nisi ea dolore sit. Laborum sint cillum duis id qui culpa. Et occaecat exercitation consectetur do fugiat consectetur."
+        },
+        {
+            "para":"Enim dolore laboris eiusmod veniam cillum minim veniam duis do amet irure reprehenderit do. Exercitation nulla elit occaecat enim excepteur esse. Ipsum quis quis est laborum."
+        },
+        {
+            "para":"Occaecat deserunt adipisicing ad occaecat ad duis ea. In tempor adipisicing eu officia amet cupidatat aliquip tempor nisi sunt qui eu voluptate irure. Anim minim mollit dolor do deserunt veniam proident nostrud mollit amet exercitation fugiat cupidatat ex.Commodo magna qui elit quis tempor commodo mollit ad duis commodo laborum labore aliquip proident."
+        }
+    ],
+    "images": [
+        {
+            "img1": "./Images/CAD-1.jpg",
+            "caption":"This is CAD"
+        },
+        {
+            "img2": "./Images/CAD-2.jpg",
+            "caption":"This is CAD"
+        },
+        {
+            "img3": "./Images/CAD-3.jpg",
+            "caption":"This is CAD"
+        },
+        {
+            "img4": "./Images/CAD-4.jpg",
+            "caption":"This is CAD"
+        }
+    ],
+    "ourstory":[
+        {
+            "title":"Since 1985",
+            "imgURL":"./Images/christina-slide-1.jpg",
+            "content":"Cupidatat ad Lorem anim non ex ullamco ipsum ad.Do irure commodo nostrud dolore ex est. Non quis elit esse ea consectetur officia nisi anim nulla exercitation. Nostrud in exercitation magna ullamco. Officia pariatur sit ut culpa laborum enim elit laborum eiusmod consequat officia."
+        },
+        {
+            "title":"Professionally Execution",
+            "imgURL":"./Images/ali-morshedlou-slide-2.jpg",
+            "content":"Cupidatat ad Lorem anim non ex ullamco ipsum ad.Duis ipsum esse ea sint.Incididunt dolore ullamco reprehenderit exercitation amet non. Ea irure veniam sint mollit sit eiusmod ex irure duis nulla cillum magna. Dolor velit aute dolor cupidatat pariatur irure."
+        },
+        {
+            "title":"Managing Criteria",
+            "imgURL":"./Images/linkedin-slide-3.jpg",
+            "content":"Cupidatat ad Lorem anim non ex ullamco ipsum ad.Minim nostrud dolor eiusmod consectetur deserunt enim commodo fugiat anim quis ut sint nulla. Labore fugiat fugiat est velit consectetur. Eiusmod quis magna magna et do consequat veniam.Aliquip aute cupidatat consectetur fugiat dolore ex. Occaecat eu excepteur commodo sunt culpa non do anim elit cupidatat sit. Aliquip nulla labore dolor aute minim."
+        }
+    ]
+}
+
