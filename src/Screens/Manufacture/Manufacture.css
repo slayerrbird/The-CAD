@@ -1,0 +1,67 @@
+/* App Styles */
+
+  
+  .app {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Sidebar Styles */
+  .sidebar {
+    width: 200px;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .sidebar-item {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .sidebar-item:hover {
+    background-color: #dcdcdc;
+  }
+  
+  .sidebar-item.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Content Styles */
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .content img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Content Section Styles */
+  .content-section {
+    margin-top: 20px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  /* Display content sections sequentially */
+  .content-section.fade-in {
+    opacity: 1;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .app {
+      flex-direction: column;
+    }
+  
+    .sidebar {
+      width: 100%;
+    }
+  }
+  

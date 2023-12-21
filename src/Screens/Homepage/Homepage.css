@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,200;8..144,600&display=swap");
+#root {
+  /* padding: 2rem; */
+  --color-green: green;
+  --color-grey:grey;
+}
+.container1 {
+  min-width: 100%;
+  overflow: hidden;
+}
+.video {
+  position: relative;
+  bottom: 102px;
+  min-width: 100%;
+  /* opacity: ; */
+}
+.slider-video {
+  
+  margin: 0 !important;
+  padding: 0 !important;
+  opacity: 1;
+}
+.banner {
+  position: relative;
+  bottom: 490px;
+  z-index: 1;
+}
+.slider {
+  display: flex;
+  transition: transform 1.3s ease-in-out;
+  font-size: 85px;
+  font-family:  var(--custom-font-family);
+  color: rgb(255, 255, 255);
+  opacity: 1.5;
+  font-weight: 600;
+}
+
+.slide {
+  flex: 0 0 100%; /* Each slide takes full width */
+}
+.slide.active {
+  opacity: 1;
+}
+.para {
+  position: relative;
+  bottom: 80px;
+  font-size: 27px;
+  color: rgb(6, 73, 131);
+  font-family:  var(--custom-font-family);
+  margin-bottom: 20px;
+}
+.bolder {
+  color: rgb(13, 34, 53);
+  font-weight: 800;
+}
+
+@media screen and (max-width: 948px) {
+  .slider-video {
+    margin: 0 !important;
+    padding: 0 !important;
+    /* min-width:; */
+  }
+  .para {
+    position: relative;
+    bottom: 50px;
+  }
+  .para>p{
+    font-size: 15px;
+  }
+  .slide > p {
+    position: relative;
+    top: 300px;
+    font-size: 28px;
+  }
+  .video{
+    /* height: ; */
+  }
+}

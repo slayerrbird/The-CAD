@@ -1,0 +1,43 @@
+.navbar {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  /* background-color: red; */
+  min-width: 100%;
+  position: relative;
+  bottom: 0px;
+  z-index: 1;
+  
+}
+.menu-hide {
+  display:hidden;
+}
+.menu-margin{
+  /* margin-right: 52rem;   */
+}
+.menu,
+.contact {
+  font-size: xx-large;
+  padding: 20px;
+  /* margin-left: 20px; */
+  color: rgb(0, 0, 0);
+  transition: all .5s;
+}
+.menu-icon,
+.contact-icon {
+  width: 80px; /* Set your icon width */
+  /* height: 30px; Set your icon height */
+  /* Style your icons as needed */
+}
+@media screen and (max-width: 948px) {
+  .menu,
+  .contact {
+    font-size:larger;
+  }
+  .logo-img {
+    height: 30px;
+    width: 60px;
+  }
+}

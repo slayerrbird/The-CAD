@@ -1,0 +1,30 @@
+.catalog-para{
+    /* padding-top: 9rem !important;
+    padding-left: 7rem !important; */
+    max-width: 580px;
+}
+.catalog-para>p{
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+}
+.catalog-form-para{
+    font-size: 1.5rem;
+    line-height: 3rem;
+    max-width: 400px;
+
+}
+.form{
+    /* height: 35rem; */
+    margin-bottom: 2rem;
+}
+.thank-you-para{
+    max-width: 41rem !important;
+    /* padding: 0 !important; */
+}
+@media screen and (max-width: 948px){
+    .thank-you-para{
+        padding-right: 2rem !important;
+        padding-left: 2rem !important;
+    
+    }
+}
